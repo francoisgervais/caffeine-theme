@@ -88,7 +88,7 @@ $(function() {
                 title: options.title || "Never miss a post!",
                 text: options.text || "Stay up to the date with the latest posts!",
                 name: options.name || "<a href='https://www.facebook.com/caffeinecoding' target='_blank'>@caffeinecoding</a>",
-                color: options.color || "#56817A",
+                color: options.color || "#282C34",
                 thumbnail: options.thumbnail || "http://i.imgur.com/39erIwp.png",
                 list: "MailChimp",
                 url : options.url

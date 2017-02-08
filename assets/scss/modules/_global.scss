@@ -106,10 +106,6 @@ p {
     line-height: 26px;
     font-size: 90%;
     word-wrap: break-word;
-
-    > code {
-        @include inline-code-style;
-    }
 }
 .fonts-loaded p{
     font-size: 100%;
@@ -157,34 +153,6 @@ ol {
 
 ul {
     list-style-type: disc;
-}
-
-li > code {
-    @include inline-code-style;
-}
-
-pre {
-    padding: 16px 2.5%;
-    margin-bottom: 20px;
-    font-family: $code-font;
-    font-size: 14px;
-    font-weight: $font-weight-normal;
-    line-height: 20px;
-    word-wrap: break-word;
-    color: $gray-dark;
-    border: 1px solid #d9d9d9;
-    border-radius: 3px;
-    > code {
-        font-family: $code-font;
-        font-size: 12px;
-        color: $gray-dark;
-        white-space: pre-wrap;
-    }
-}
-
-code:hover,
-pre:hover {
-    color: $gray-darkest;
 }
 
 iframe {

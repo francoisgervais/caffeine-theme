@@ -49,7 +49,6 @@ src = {
             "assets/vendor/ghostHunter/jquery.ghostHunter.min.js",
             "assets/vendor/fitvids/jquery.fitvids.js",
             "assets/vendor/reading-time/build/readingTime.min.js",
-            "assets/vendor/prism/prism.js",
             "assets/vendor/toastr/toastr.min.js",
             "assets/vendor/store-js/store.min.js"
         ]
@@ -57,7 +56,6 @@ src = {
     css: {
         main: "assets/css/" + dist.name + ".css",
         vendor: [
-            "assets/vendor/prism/themes/prism-okaidia.css"
         ]
     },
     fonts: {
