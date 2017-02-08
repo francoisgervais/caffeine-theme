@@ -3274,7 +3274,7 @@ table::-webkit-scrollbar-track {
 }
 .call-to-action-container .navigation .links li {
     display: inline-block;
-    margin: 0 5px;
+    margin: 5px 5px;
     border-radius: 20px;
     background: #282C34;
     color: #F6F4E9;
